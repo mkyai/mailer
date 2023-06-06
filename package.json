@@ -1,0 +1,26 @@
+{
+  "name": "@micro-nest/redis",
+  "version": "1.0.3",
+  "description": "Smallest redis client to store key value pairs",
+  "type": "commonjs",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "push": "tsc && npm version patch && npm publish"
+  },
+  "author": "lovneet",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RadiansysInc/micro-nest.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.4"
+  }
+}
