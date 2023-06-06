@@ -1,7 +1,7 @@
 {
-  "name": "@micro-nest/redis",
-  "version": "1.0.3",
-  "description": "Smallest redis client to store key value pairs",
+  "name": "@micro-nest/mailer",
+  "version": "1.0.0",
+  "description": "Smallest library for mail services [ sendgrid | sendinblue ]",
   "type": "commonjs",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RadiansysInc/micro-nest.git"
+    "url": "https://github.com/mkyai/mailer.git"
   },
   "dependencies": {
     "dotenv": "^16.0.3",

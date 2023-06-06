@@ -1,16 +1,16 @@
-# MICRO-NEST [Redis]
+# MICRO-NEST [ Mailer ]
 
 ## Quick Start
 
 - Install
-  `npm i @micro-nest/redis`
+  `npm i @micro-nest/mailer`
 
 - Imports
 
 ```
-import { get, set, del, flushall, flushdb  } from "@micro-nest/redis"
-import { publish, subscribe, psubscribe, psub, sub, } from "@micro-nest/redis"
-import { random } from "@micro-nest/redis"
+import { get, set, del, flushall, flushdb  } from "@micro-nest/mailer"
+import { publish, subscribe, psubscribe, psub, sub, } from "@micro-nest/mailer"
+import { random } from "@micro-nest/mailer"
 ```
 
 ## Description
